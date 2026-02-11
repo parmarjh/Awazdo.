@@ -2,6 +2,8 @@
 
 Awazdo is a next-generation platform designed to revolutionize how users interact with AI and digital workflows. By providing a "God Mode" interface, we empower users to manage complex systems with simplicity and elegance.
 
+![Awazdo Vision](https://placehold.co/1200x400/0a0a0a/00ffff?text=God+Mode+Intelligence+Vision&font=montserrat)
+
 ## 🌟 Company Vision
 
 **"Empowering Creativity through God Mode Intelligence"**
@@ -17,6 +19,20 @@ We envision a future where technology feels like an extension of the mind—seam
 ## 🏗️ Work Architecture
 
 Awazdo is built on a cutting-edge, scalable architecture that prioritizes performance, user experience, and developer productivity.
+
+```mermaid
+graph TD
+    Client[User Client] -->|Interacts| UI[God Mode UI]
+    UI -->|Next.js App Router| Server[Server Components]
+    Server -->|Server Actions| Logic[Business Logic]
+    Logic -->|AI Processing| Agents[AI Agents]
+    Logic -->|Data Persistence| DB[(Database)]
+    UI -.->|Real-time Updates| Client
+    style Client fill:#f9f,stroke:#333,stroke-width:2px
+    style UI fill:#bbf,stroke:#333,stroke-width:2px
+    style Server fill:#dfd,stroke:#333,stroke-width:2px
+    style Agents fill:#fdd,stroke:#333,stroke-width:2px
+```
 
 ### Frontend Foundation
 *   **Framework:** [Next.js 16](https://nextjs.org/) (App Router) - Leveraging the latest in React server components and routing for blazing-fast performance.
