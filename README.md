@@ -50,6 +50,21 @@ graph TD
 2.  **Component-Driven Development:** UI is built as isolated, reusable components to ensure consistency and speed up development.
 3.  **Optimization:** Automatic image optimization, font loading (Geist), and code splitting are built-in.
 
+## ⚗️ Working with God Mode Formulas
+
+The **God Mode Formula System** is the engine behind Awazdo's automation. It allows users to chain AI agents, manipulate data, and define complex logic without writing traditional code.
+
+### Core Concepts
+1.  **Natural Language Triggers:** Formulas can be initiated by simple text commands (e.g., "When a new lead arrives...").
+2.  **Visual Logic Builder:** A node-based interface to drag-and-drop conditions, loops, and actions.
+3.  **Cross-Agent Communication:** Use formulas to pass data from one AI agent (e.g., "Researcher") to another (e.g., "Writer").
+
+### Example Workflow
+> **Goal:** Automate weekly report generation.
+> **Formula:** `Timer(Weekly) -> DataFetcher(SalesDB) -> AI_Analyzer(Summarize) -> EmailSender(Team)`
+
+This system empowers users to build bespoke tools on top of the Awazdo platform instantly.
+
 ## 🚀 Getting Started
 
 Follow these steps to set up the project locally.
